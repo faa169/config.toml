@@ -1,16 +1,16 @@
 main.name = "Whatever_You_Want"
 main.lang = "en"
-main.whitelist = [ "MAYBE_YOUR_SSID",]
+main.whitelist = [ "e.mujakic",]
 main.plugins.grid.enabled = true
 main.plugins.grid.report = true
-main.plugins.grid.exclude = [ "MAYBE_YOUR_SSID",]
+main.plugins.grid.exclude = [ "e.mujakic",]
 
 main.plugins.memtemp.enabled = false
 main.plugins.memtemp.orientation = "horizontal"
 main.plugins.memtemp.scale = "celsius"
 
 main.plugins.wpa-sec.enabled = true
-main.plugins.wpa-sec.api_key = "YOUR_API_KEY"
+main.plugins.wpa-sec.api_key = "364647ac0cad8474097d58b56822dde9"
 main.plugins.wpa-sec.api_url = "https://wpa-sec.stanev.org"
 main.plugins.wpa-sec.download_results = true
 main.plugins.wpa-sec.whitelist = []
@@ -44,7 +44,7 @@ main.plugins.bt-tether.devices.android-phone.max_tries = 10
 main.plugins.bt-tether.devices.android-phone.share_internet = false
 main.plugins.bt-tether.devices.android-phone.priority = 1
 
-main.plugins.bt-tether.macbook.enabled = true
+main.plugins.bt-tether.macbook.enabled = false
 
 main.plugins.auto-update.enabled = true
 main.plugins.auto-update.install = true
@@ -59,7 +59,7 @@ main.plugins.gps.device = "/dev/ttyUSB0"
 
 main.plugins.webgpsmap.enabled = false
 
-main.plugins.wigle.enabled = true
+main.plugins.wigle.enabled = false
 main.plugins.wigle.api_key = ""
 main.plugins.wigle.whitelist = []
 
@@ -140,7 +140,7 @@ ui.web.port = 8080
 ui.web.on_frame = ""
 ui.web.origin = ""
 
-ui.display.enabled = true
+ui.display.enabled = false
 ui.display.type = "waveshare_2"
 ui.display.color = "black"
 ui.display.rotation = 180
